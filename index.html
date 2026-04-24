@@ -4,30 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>软件开发服务 - 彭宏远</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2 {
+            color: #222;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact-info, .terms, .privacy {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .paypal-button {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>软件开发与系统集成服务</h1>
-    <p>我专注于定制化软件开发、系统集成、数据处理服务，致力于为企业和个人提供高效、可靠的技术解决方案。</p >
+    <header>
+        <h1>软件开发与系统集成服务</h1>
+        <p>我专注于定制化软件开发、系统集成、数据处理服务，致力于为企业和个人提供高效、可靠的技术解决方案。</p >
+    </header>
 
-    <h2>服务范围</h2>
-    <ul>
-        <li>定制化软件开发（web/桌面/移动端）</li>
-        <li>系统集成与接口开发</li>
-        <li>数据处理与分析服务</li>
-    </ul>
+    <div class="section">
+        <h2>服务范围</h2>
+        <ul>
+            <li>定制化软件开发（Web / 桌面 / 移动端）</li>
+            <li>系统集成与接口开发</li>
+            <li>数据处理与分析服务</li>
+        </ul>
+    </div>
 
-    <h2>联系方式</h2>
-    <p>电话：15623041990</p >
-    <p>邮箱：penghongyuan256@gmail.com</p >
+    <div class="section">
+        <h2>服务流程与收费说明</h2>
+        <ol>
+            <li>沟通需求：通过电话或邮箱联系，确认您的项目需求</li>
+            <li>报价评估：根据需求提供项目报价与交付周期</li>
+            <li>签订协议：确认服务内容、交付标准与付款方式</li>
+            <li>支付费用：通过 PayPal 支付服务款项</li>
+            <li>开发交付：按约定周期完成开发并交付，提供免费测试期</li>
+        </ol>
+        <p>所有服务均以双方确认的需求文档为准，具体费用根据项目复杂度评估确定。所有技术服务均为有偿商业定制服务，统一通过PayPal官方渠道结算。</p >
+    </div>
 
-    <h2>在线支付</h2>
-    <p>如果您觉得我的服务有帮助，欢迎通过 PayPal 支持我：</p >
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_donations">
-        <input type="hidden" name="business" value="penghongyuan256@gmail.com">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/pp-acceptance-medium.png" 
-               border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    </form>
+    <div class="section contact-info">
+        <h2>联系方式</h2>
+        <p>姓名：彭宏远</p >
+        <p>电话：15623041990</p >
+        <p>邮箱：penghongyuan256@gmail.com</p >
+        <p>地址：湖北省麻城市关厢社区商贸小区一排2号</p >
+    </div>
+
+    <div class="section terms">
+        <h2>服务条款与退款政策</h2>
+        <p><strong>1. 服务范围</strong><br>
+        本页面提供定制化软件开发、系统集成与数据处理服务，具体服务内容以双方书面确认的需求文档为准。</p >
+        <p><strong>2. 付款方式</strong><br>
+        服务费用通过 PayPal 进行支付，付款完成后双方确认服务启动时间。如需分期支付，需提前沟通并写入服务协议。</p >
+        <p><strong>3. 交付与验收</strong><br>
+        服务将按照约定的周期交付，交付后提供 7 天免费测试期，测试期内若出现非人为损坏的功能问题，可免费修改。</p >
+        <p><strong>4. 退款政策</strong><br>
+        服务未启动前，可申请全额退款；服务启动后，已完成部分对应的费用不予退款，未完成部分可按比例申请退款。因用户单方面变更需求导致的额外开发费用，由用户承担。</p >
+    </div>
+
+    <div class="section privacy">
+        <h2>隐私政策</h2>
+        <p><strong>1. 信息收集</strong><br>
+        我们仅收集服务所需的必要信息（如您的邮箱、联系方式、服务需求），用于项目沟通与交付。</p >
+        <p><strong>2. 信息使用</strong><br>
+        您的信息仅用于本次服务的沟通与交付，不会向任何第三方泄露、出售或转让。</p >
+        <p><strong>3. 信息保护</strong><br>
+        我们将采取合理的技术与管理措施保护您的个人信息安全，防止未经授权的访问与使用。</p >
+        <p><strong>4. 联系我们</strong><br>
+        若您对本隐私政策有任何疑问，可通过 penghongyuan256@gmail.com 联系我们。</p >
+    </div>
+
+    <div class="section">
+        <h2>在线支付</h2>
+        <p>如需购买定制开发服务，请通过下方官方支付按钮完成付款。付款完成后，请通过邮箱发送订单信息，以便我们确认需求并启动项目开发。</p >
+        <a href=" " class="paypal-button">
+            < img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal 付款">
+        </a >
+    </div>
+
+    <footer>
+        <p>© 2026 彭宏远 保留所有权利</p >
+    </footer>
 </body>
 </html>
